@@ -1,1 +1,12 @@
 /* styles */
+  GNU nano 8.5                          styles.css                           Modified
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; margin:0; pad>
+.site-header { padding: 1rem; border-bottom: 1px solid #eee; }
+.nav { display:flex; gap:1rem; align-items:center; justify-content:space-between; }
+.nav-links { list-style:none; display:flex; gap:1rem; margin:0; padding:0; }
+.projects-grid { display:flex; flex-wrap:wrap; gap:1rem; }
+@media (max-width:600px) {
+  .nav-links { display:none; } /* you'll toggle this with JS */
+}
+/
